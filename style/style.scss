@@ -1,0 +1,151 @@
+body{
+  background-color: #f4f7f6;
+  font-family: "Roboto",sans-serif;
+}
+
+nav{
+  width: 305px;
+  height: 1000px;
+  //display: none;
+  .nav-header{
+    height: 70px;
+
+    .translate{
+      float: left;
+      margin: 0 0 0 30px;
+      span{
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 12px;
+        color: #202121;
+        text-transform: uppercase;
+        line-height: 70px;
+      }
+    }
+
+    .close{
+      float: right;
+      margin-right: 30px;
+      span{
+        line-height: 70px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  #menu{
+    li{
+      box-sizing: border-box;
+      border-top: 1px solid #E6EAEA;
+      color: #000;
+      height: 70px;
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 17px;
+      &:hover{
+        background-color: #ffffff;
+        transition: 1s;
+      }
+      &:not(:hover) {
+        transition: 3s;
+      }
+
+      .item{
+        margin-left: 35px;
+        text-decoration: none;
+        color: #202121;
+        margin-top: 25px;
+        line-height: 70px;
+      }
+
+      .home{
+        color: #42ab9e;
+      }
+    }
+  }
+
+  #lang-menu{
+    display: none;
+    li{
+      box-sizing: border-box;
+      border-top: 1px solid #E6EAEA;
+      color: #000;
+      height: 70px;
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 17px;
+      &:hover{
+        background-color: #ffffff;
+        transition: 1s;
+      }
+      &:not(:hover) {
+        transition: 3s;
+      }
+
+      .item{
+        margin-left: 35px;
+        text-decoration: none;
+        color: #202121;
+        margin-top: 25px;
+        line-height: 70px;
+      }
+    }
+  }
+}
+
+
+//header{
+//  width: 100%;
+//  height: 70px;
+//  position: fixed;
+//  top: 0;
+//  line-height: 70px;
+//
+//  .left-box{
+//    height: 70px;
+//    width: 115px;
+//    border-right: 1px solid #E6EAEA;
+//    box-sizing: border-box;
+//    float: left;
+//    span{
+//      text-transform: uppercase;
+//    }
+//  }
+//
+//  .right-box{
+//    float: right;
+//
+//    .btn-search{
+//      float: left;
+//      width: 60px;
+//      height: 70px;
+//    }
+//
+//
+//    #btn-submit{
+//      background-color: #42ab9e;
+//      float: right;
+//      cursor: pointer;
+//      width: 190px;
+//      height: 70px;
+//      text-align: center;
+//      &:hover{
+//        background-color: #389c90;
+//        transition: 1s;
+//      }
+//      span{
+//        color: #ffffff;
+//        text-align: center;
+//        font-size: 13px;
+//        font-weight: 500;
+//      }
+//    }
+//  }
+//
+//  .logo{
+//    position: fixed;
+//    left: 45%;
+//  }
+//}

@@ -1,0 +1,71 @@
+body {
+  background-color: #f4f7f6;
+  font-family: "Roboto",sans-serif; }
+
+nav {
+  width: 305px;
+  height: 1000px; }
+  nav .nav-header {
+    height: 70px; }
+    nav .nav-header .translate {
+      float: left;
+      margin: 0 0 0 30px; }
+      nav .nav-header .translate span {
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 12px;
+        color: #202121;
+        text-transform: uppercase;
+        line-height: 70px; }
+    nav .nav-header .close {
+      float: right;
+      margin-right: 30px; }
+      nav .nav-header .close span {
+        line-height: 70px;
+        text-transform: uppercase; }
+  nav #menu li {
+    box-sizing: border-box;
+    border-top: 1px solid #E6EAEA;
+    color: #000;
+    height: 70px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px; }
+    nav #menu li:hover {
+      background-color: #ffffff;
+      transition: 1s; }
+    nav #menu li:not(:hover) {
+      transition: 3s; }
+    nav #menu li .item {
+      margin-left: 35px;
+      text-decoration: none;
+      color: #202121;
+      margin-top: 25px;
+      line-height: 70px; }
+    nav #menu li .home {
+      color: #42ab9e; }
+  nav #lang-menu {
+    display: none; }
+    nav #lang-menu li {
+      box-sizing: border-box;
+      border-top: 1px solid #E6EAEA;
+      color: #000;
+      height: 70px;
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 17px; }
+      nav #lang-menu li:hover {
+        background-color: #ffffff;
+        transition: 1s; }
+      nav #lang-menu li:not(:hover) {
+        transition: 3s; }
+      nav #lang-menu li .item {
+        margin-left: 35px;
+        text-decoration: none;
+        color: #202121;
+        margin-top: 25px;
+        line-height: 70px; }
+
+/*# sourceMappingURL=style.css.map */
